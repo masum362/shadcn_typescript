@@ -1,8 +1,25 @@
-import React from 'react'
 
-const Home = () => {
+
+
+interface homeProps {
+  firstName?: string;
+  age?: number;
+}
+
+
+
+const Home = ({firstName,age}:homeProps) => {
+
+
+
+
   return (
-    <div>Home</div>
+    <div>
+      {
+        firstName
+      }
+      {age}
+    </div>
   )
 }
 

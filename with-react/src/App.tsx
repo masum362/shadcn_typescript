@@ -1,5 +1,5 @@
 // import Admin from "./components/Admin";
-// import Counter from "./components/Counter";
+import Counter from "./components/Counter";
 // import User from "./components/User";
 // import { UserInfo, AdminInfo } from "./types";
 // import TodoList from "./components/TodoList";
@@ -27,7 +27,7 @@ function App() {
     <div className="text-white">
       {/* <Admin adminInfo={adminInfo}/>
       <User userInfo={userInfo}/> */}
-      {/* <Counter /> */}
+      <Counter />
       {/* <UserProfile /> */}
       {/* <TodoList /> */}
       {/* <Form /> */}

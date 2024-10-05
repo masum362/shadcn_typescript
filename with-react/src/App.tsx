@@ -5,6 +5,7 @@
 // import TodoList from "./components/TodoList";
 // import UserProfile from "./components/UserProfile";
 
+import EventHandling from "./components/EventHandling";
 import Form from "./components/Form";
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <Counter /> */}
       {/* <UserProfile /> */}
       {/* <TodoList /> */}
-      <Form />
+      {/* <Form /> */}
+      <EventHandling />
     </div>
   );
 }

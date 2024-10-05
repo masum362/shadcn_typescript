@@ -5,8 +5,8 @@
 // import TodoList from "./components/TodoList";
 // import UserProfile from "./components/UserProfile";
 
-import EventHandling from "./components/EventHandling";
-import Form from "./components/Form";
+// import EventHandling from "./components/EventHandling";
+// import Form from "./components/Form";
 
 function App() {
   // const userInfo: UserInfo = {
@@ -31,7 +31,8 @@ function App() {
       {/* <UserProfile /> */}
       {/* <TodoList /> */}
       {/* <Form /> */}
-      <EventHandling />
+      {/* <EventHandling /> */}
+
     </div>
   );
 }

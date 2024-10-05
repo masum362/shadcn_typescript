@@ -1,9 +1,9 @@
-import Home from "@/pages/home/Home";
+import App from "@/App";
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
     {
         path:"/",
-        element:<Home />
+        element:<App />
     }
 ])

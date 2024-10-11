@@ -4,7 +4,9 @@
 import { useReducer } from "react";
 
 type StateType = { count: number };
-type Action = { type: "INCREMENT" } | { type: "DECREMENT" };
+type Action = {
+  type: "INCREMENT" | "DECREMENT";
+};
 
 const reducer = (state: StateType, action: Action): StateType => {
   switch (action.type) {

@@ -168,3 +168,10 @@ const renderTodo = (todos: todo[]) => {
 // const func = (person: { name: string, age: number }): string => {
 //   return person.name
 // }
+
+// let a = 10, b = 20, c = 10;
+
+// enum numbers { a, b, c }
+
+// const myNumber:numbers = numbers.a
+// console.log(myNumber)
